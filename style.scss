@@ -57,6 +57,7 @@ header {
   background-repeat: no repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 3rem;
   h2 {
     margin-top: 5rem;
     padding: 5rem 0.8rem 0.8rem 0.8rem;
@@ -65,5 +66,18 @@ header {
   p {
     padding: 0rem 0.8rem 2rem 0.8rem;
     font-size: 1.2rem;
+  }
+}
+.third-main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 4rem;
+  img:last-child {
+    display: none;
+  }
+  img {
+    width: 8rem;
+    margin: auto;
+    padding-bottom: 0.6rem;
   }
 }
