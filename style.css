@@ -57,6 +57,7 @@ header .header-meniu {
   background-repeat: no repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 3rem;
 }
 .second-main-section h2 {
   margin-top: 5rem;
@@ -66,4 +67,18 @@ header .header-meniu {
 .second-main-section p {
   padding: 0rem 0.8rem 2rem 0.8rem;
   font-size: 1.2rem;
+}
+
+.third-main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 4rem;
+}
+.third-main-section img:last-child {
+  display: none;
+}
+.third-main-section img {
+  width: 8rem;
+  margin: auto;
+  padding-bottom: 0.6rem;
 }/*# sourceMappingURL=style.css.map */
