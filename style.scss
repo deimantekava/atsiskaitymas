@@ -7,12 +7,47 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0.8rem;
+  margin: 0.8rem 0.8rem 5rem 0.8rem;
   .header-logo {
     height: 1.875rem;
   }
   .header-meniu {
     width: 1.2rem;
-    color: grey;
+  }
+}
+section {
+  div {
+    margin: 4rem 0.8rem 0rem;
+    max-width: 230px;
+    position: relative;
+    .first-section-p {
+      color: rgb(221, 90, 112);
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 2.3rem;
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+    .second-section-p {
+      color: grey;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
+    button {
+      padding: 0.6rem;
+      border-radius: 2.5rem;
+      padding: 0.5rem 1.3rem;
+      background-color: white;
+      border: 2px solid rgb(221, 90, 112);
+      margin-top: 1rem;
+    }
+  }
+  img {
+    height: 23rem;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    left: 45%;
   }
 }
