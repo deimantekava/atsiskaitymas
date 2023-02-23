@@ -1,1 +1,19 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem;
+}
+header .header-logo {
+  height: 1.875rem;
+}
+header .header-meniu {
+  width: 1.2rem;
+  color: grey;
+}/*# sourceMappingURL=style.css.map */
