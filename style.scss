@@ -15,7 +15,7 @@ header {
     width: 1.2rem;
   }
 }
-section {
+.first-main-section {
   div {
     margin: 4rem 0.8rem 0rem;
     max-width: 230px;
@@ -49,5 +49,21 @@ section {
     position: absolute;
     top: 25px;
     left: 45%;
+  }
+}
+
+.second-main-section {
+  background-image: url(./assets/assets/background.svg);
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+  h2 {
+    margin-top: 5rem;
+    padding: 5rem 0.8rem 0.8rem 0.8rem;
+    font-size: 2rem;
+  }
+  p {
+    padding: 0rem 0.8rem 2rem 0.8rem;
+    font-size: 1.2rem;
   }
 }
