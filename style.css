@@ -17,26 +17,26 @@ header .header-meniu {
   width: 1.2rem;
 }
 
-section div {
+.first-main-section div {
   margin: 4rem 0.8rem 0rem;
   max-width: 230px;
   position: relative;
 }
-section div .first-section-p {
+.first-main-section div .first-section-p {
   color: rgb(221, 90, 112);
   margin-bottom: 1.5rem;
 }
-section div h1 {
+.first-main-section div h1 {
   font-size: 2.3rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
 }
-section div .second-section-p {
+.first-main-section div .second-section-p {
   color: grey;
   font-size: 1.1rem;
   line-height: 1.5rem;
 }
-section div button {
+.first-main-section div button {
   padding: 0.6rem;
   border-radius: 2.5rem;
   padding: 0.5rem 1.3rem;
@@ -44,10 +44,26 @@ section div button {
   border: 2px solid rgb(221, 90, 112);
   margin-top: 1rem;
 }
-section img {
+.first-main-section img {
   height: 23rem;
   overflow: hidden;
   position: absolute;
   top: 25px;
   left: 45%;
+}
+
+.second-main-section {
+  background-image: url(./assets/assets/background.svg);
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+}
+.second-main-section h2 {
+  margin-top: 5rem;
+  padding: 5rem 0.8rem 0.8rem 0.8rem;
+  font-size: 2rem;
+}
+.second-main-section p {
+  padding: 0rem 0.8rem 2rem 0.8rem;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
