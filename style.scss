@@ -35,12 +35,13 @@ header {
       line-height: 1.5rem;
     }
     button {
-      padding: 0.6rem;
       border-radius: 2.5rem;
-      padding: 0.5rem 1.3rem;
+      padding: 1rem 2.5rem;
       background-color: white;
-      border: 2px solid rgb(221, 90, 112);
+      border: 3px solid rgb(221, 90, 112);
       margin-top: 1rem;
+      font-size: 15px;
+      font-weight: bold;
     }
   }
   img {
@@ -150,5 +151,45 @@ header {
         }
       }
     }
+  }
+}
+
+.fifth-main-section {
+  position: relative;
+  margin-bottom: 10rem;
+  div {
+    margin: 4rem 0.8rem 0rem;
+    max-width: 220px;
+    position: relative;
+    .fifth-section-p {
+      color: rgb(221, 90, 112);
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+    .fifth-second-section-p {
+      color: grey;
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+    }
+    button {
+      border-radius: 2.5rem;
+      padding: 1rem 2.5rem;
+      background-color: white;
+      border: 3px solid rgb(221, 90, 112);
+      margin-top: 1rem;
+      font-size: 15px;
+      font-weight: bold;
+    }
+  }
+  img {
+    height: 24rem;
+    overflow: hidden;
+    position: absolute;
+    top: 6rem;
+    left: 14rem;
   }
 }
