@@ -16,6 +16,9 @@ header .header-logo {
 header .header-meniu {
   width: 1.2rem;
 }
+header ul {
+  display: none;
+}
 
 .first-main-section div {
   margin: 4rem 0.8rem 0rem;
@@ -226,4 +229,65 @@ footer .meniu-paragraph li {
 }
 footer .none {
   display: none;
+}
+
+@media (min-width: 1200px) {
+  header {
+    margin: 3rem;
+  }
+  header .header-meniu {
+    display: none;
+  }
+  header ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.3rem;
+    color: gray;
+  }
+  header ul :last-child {
+    color: pink;
+  }
+  main {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .first-main-section div {
+    max-width: 600px;
+  }
+  .first-main-section div h1 {
+    font-size: 6rem;
+  }
+  .first-main-section img {
+    height: 33rem;
+    top: 110px;
+    left: 50%;
+  }
+  .second-main-section {
+    border-radius: 10px;
+  }
+  .third-main-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .third-main-section img:last-child {
+    display: inline;
+  }
+  .fifth-main-section div {
+    max-width: 600px;
+  }
+  .fifth-main-section div h1 {
+    font-size: 3rem;
+  }
+  .fifth-main-section hr {
+    display: none;
+  }
+  .fifth-main-section img {
+    height: 22rem;
+    top: 10px;
+    left: 70%;
+  }
+  footer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }/*# sourceMappingURL=style.css.map */
