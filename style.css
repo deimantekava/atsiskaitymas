@@ -37,12 +37,13 @@ header .header-meniu {
   line-height: 1.5rem;
 }
 .first-main-section div button {
-  padding: 0.6rem;
   border-radius: 2.5rem;
-  padding: 0.5rem 1.3rem;
+  padding: 1rem 2.5rem;
   background-color: white;
-  border: 2px solid rgb(221, 90, 112);
+  border: 3px solid rgb(221, 90, 112);
   margin-top: 1rem;
+  font-size: 15px;
+  font-weight: bold;
 }
 .first-main-section img {
   height: 23rem;
@@ -150,4 +151,44 @@ header .header-meniu {
 }
 .fourth-main-section .first-card .card-info .second-paragraph div img {
   width: 0.6rem;
+}
+
+.fifth-main-section {
+  position: relative;
+  margin-bottom: 10rem;
+}
+.fifth-main-section div {
+  margin: 4rem 0.8rem 0rem;
+  max-width: 220px;
+  position: relative;
+}
+.fifth-main-section div .fifth-section-p {
+  color: rgb(221, 90, 112);
+  margin-bottom: 1.5rem;
+}
+.fifth-main-section div h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+.fifth-main-section div .fifth-second-section-p {
+  color: grey;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.fifth-main-section div button {
+  border-radius: 2.5rem;
+  padding: 1rem 2.5rem;
+  background-color: white;
+  border: 3px solid rgb(221, 90, 112);
+  margin-top: 1rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+.fifth-main-section img {
+  height: 24rem;
+  overflow: hidden;
+  position: absolute;
+  top: 6rem;
+  left: 14rem;
 }/*# sourceMappingURL=style.css.map */
