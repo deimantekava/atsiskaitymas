@@ -193,3 +193,42 @@ header {
     left: 14rem;
   }
 }
+
+footer {
+  margin: 0rem 0.8rem 4rem 0.8rem;
+  color: gray;
+  .logo-paragraph {
+    img {
+      padding-bottom: 0.5rem;
+    }
+    div {
+      padding-bottom: 1rem;
+    }
+    .socmedia {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 3rem;
+      img {
+        height: 2rem;
+      }
+    }
+  }
+  .meniu-paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 0.8rem 1rem 0.8rem;
+    gap: 1rem;
+    div {
+      div {
+        font-weight: bold;
+      }
+    }
+    li {
+      list-style: none;
+      padding: 0.5rem;
+    }
+  }
+  .none {
+    display: none;
+  }
+}
