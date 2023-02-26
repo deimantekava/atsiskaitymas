@@ -83,36 +83,71 @@ header {
 }
 
 .fourth-main-section {
-  img {
-    width: 12rem;
+  h2 {
+    padding: 0rem 0.8rem 0.8rem 0.8rem;
+    font-size: 2rem;
   }
-  .card-info {
-    padding: 20px 20px;
-    // border: 1px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: space-between;
-    width: 12rem;
-    margin-bottom: 5rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    background-color: rgb(223, 218, 218);
+  p {
+    padding: 0rem 0.8rem 2rem 0.8rem;
+    font-size: 1.2rem;
+    color: gray;
+    span {
+      text-decoration: underline;
+    }
   }
-  .first-paragraph {
-    font-size: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  .cards-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .second-paragraph {
-    font-size: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    div {
+  .first-card {
+    margin-left: 0.8rem;
+    img {
+      width: 14rem;
+    }
+    .card-info {
+      padding: 20px 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       display: flex;
-      align-items: center;
-      img {
-        width: 0.6rem;
+      justify-content: space-between;
+      width: 14rem;
+      margin-bottom: 5rem;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      background-color: rgb(240, 231, 231);
+      .first-paragraph {
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        :nth-child(1) {
+          color: orange;
+        }
+        :nth-child(2) {
+          font-weight: bold;
+        }
+        :nth-child(3) {
+          color: gray;
+        }
+      }
+      .second-paragraph {
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: end;
+        :nth-child(1) {
+          color: gray;
+        }
+        :nth-child(3) {
+          color: gray;
+        }
+        div {
+          display: flex;
+          align-items: center;
+          img {
+            width: 0.6rem;
+          }
+        }
       }
     }
   }
