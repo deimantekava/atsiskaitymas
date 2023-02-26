@@ -191,4 +191,39 @@ header .header-meniu {
   position: absolute;
   top: 6rem;
   left: 14rem;
+}
+
+footer {
+  margin: 0rem 0.8rem 4rem 0.8rem;
+  color: gray;
+}
+footer .logo-paragraph img {
+  padding-bottom: 0.5rem;
+}
+footer .logo-paragraph div {
+  padding-bottom: 1rem;
+}
+footer .logo-paragraph .socmedia {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+footer .logo-paragraph .socmedia img {
+  height: 2rem;
+}
+footer .meniu-paragraph {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0rem 0.8rem 1rem 0.8rem;
+  gap: 1rem;
+}
+footer .meniu-paragraph div div {
+  font-weight: bold;
+}
+footer .meniu-paragraph li {
+  list-style: none;
+  padding: 0.5rem;
+}
+footer .none {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
