@@ -238,7 +238,7 @@ footer {
 
 @media (min-width: 1200px) {
   header {
-    margin: 3rem;
+    margin: 5rem;
     .header-meniu {
       display: none;
     }
@@ -254,8 +254,8 @@ footer {
     }
   }
   main {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
   .first-main-section {
     div {
@@ -297,7 +297,23 @@ footer {
     }
   }
   footer {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    .last-footer-paragraph {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      .none {
+        display: flex;
+      }
+    }
+    .media-footer {
+      display: flex;
+      justify-content: space-between;
+      .meniu-paragraph {
+        display: flex;
+        gap: 5rem;
+      }
+    }
   }
 }
