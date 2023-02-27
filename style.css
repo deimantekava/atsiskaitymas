@@ -233,7 +233,7 @@ footer .none {
 
 @media (min-width: 1200px) {
   header {
-    margin: 3rem;
+    margin: 5rem;
   }
   header .header-meniu {
     display: none;
@@ -249,8 +249,8 @@ footer .none {
     color: pink;
   }
   main {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
   .first-main-section div {
     max-width: 600px;
@@ -287,7 +287,23 @@ footer .none {
     left: 70%;
   }
   footer {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  footer .last-footer-paragraph {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  footer .last-footer-paragraph .none {
+    display: flex;
+  }
+  footer .media-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .media-footer .meniu-paragraph {
+    display: flex;
+    gap: 5rem;
   }
 }/*# sourceMappingURL=style.css.map */
