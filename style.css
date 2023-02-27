@@ -40,13 +40,15 @@ header ul {
   line-height: 1.5rem;
 }
 .first-main-section div button {
-  border-radius: 2.5rem;
-  padding: 1rem 2.5rem;
-  background-color: white;
-  border: 3px solid rgb(221, 90, 112);
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 15px;
   font-weight: bold;
+  background: linear-gradient(#fdfcfc 0 0) padding-box, linear-gradient(to right, #9c20aa, #fb3570) border-box;
+  color: #313149;
+  padding: 1rem 3rem;
+  border: 5px solid transparent;
+  border-radius: 25px;
+  display: inline-block;
 }
 .first-main-section img {
   height: 23rem;
@@ -108,6 +110,7 @@ header ul {
 }
 .fourth-main-section .first-card img {
   width: 14rem;
+  margin-bottom: -1rem;
 }
 .fourth-main-section .first-card .card-info {
   padding: 20px 20px;
@@ -118,7 +121,7 @@ header ul {
   margin-bottom: 5rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  background-color: rgb(240, 231, 231);
+  background-color: rgb(247, 240, 240);
 }
 .fourth-main-section .first-card .card-info .first-paragraph {
   font-size: 0.7rem;
@@ -152,13 +155,17 @@ header ul {
   display: flex;
   align-items: center;
 }
+.fourth-main-section .first-card .card-info .second-paragraph div span {
+  font-weight: bold;
+}
 .fourth-main-section .first-card .card-info .second-paragraph div img {
   width: 0.6rem;
 }
 
 .fifth-main-section {
   position: relative;
-  margin-bottom: 10rem;
+  margin-bottom: 9rem;
+  border-top: 1px solid rgb(221, 217, 217);
 }
 .fifth-main-section div {
   margin: 4rem 0.8rem 0rem;
@@ -180,13 +187,15 @@ header ul {
   line-height: 1.5rem;
 }
 .fifth-main-section div button {
-  border-radius: 2.5rem;
-  padding: 1rem 2.5rem;
-  background-color: white;
-  border: 3px solid rgb(221, 90, 112);
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 15px;
   font-weight: bold;
+  background: linear-gradient(#fdfcfc 0 0) padding-box, linear-gradient(to right, #9c20aa, #fb3570) border-box;
+  color: #313149;
+  padding: 1rem 3rem;
+  border: 5px solid transparent;
+  border-radius: 25px;
+  display: inline-block;
 }
 .fifth-main-section img {
   height: 24rem;
@@ -233,7 +242,7 @@ footer .none {
 
 @media (min-width: 1200px) {
   header {
-    margin: 5rem;
+    margin: 5rem 7rem;
   }
   header .header-meniu {
     display: none;
@@ -249,8 +258,8 @@ footer .none {
     color: pink;
   }
   main {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
   }
   .first-main-section div {
     max-width: 600px;
@@ -265,12 +274,19 @@ footer .none {
   }
   .second-main-section {
     border-radius: 10px;
+    padding: 0rem 1rem;
+    margin-top: 1.5rem;
   }
   .third-main-section {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   .third-main-section img:last-child {
     display: inline;
+  }
+  .fifth-main-section {
+    border-top: 1px solid rgb(221, 217, 217);
+    border-bottom: 1px solid rgb(221, 217, 217);
+    padding-bottom: 3.5rem;
   }
   .fifth-main-section div {
     max-width: 600px;
@@ -287,8 +303,8 @@ footer .none {
     left: 70%;
   }
   footer {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
   }
   footer .last-footer-paragraph {
     display: flex;
