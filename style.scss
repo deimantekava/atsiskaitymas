@@ -4,6 +4,19 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+@mixin button {
+  margin-top: 1.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  background: linear-gradient(#fdfcfc 0 0) padding-box,
+    linear-gradient(to right, #9c20aa, #fb3570) border-box;
+  color: #313149;
+  padding: 1rem 3rem;
+  border: 5px solid transparent;
+  border-radius: 25px;
+  display: inline-block;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -38,13 +51,7 @@ header {
       line-height: 1.5rem;
     }
     button {
-      border-radius: 2.5rem;
-      padding: 1rem 2.5rem;
-      background-color: white;
-      border: 3px solid rgb(221, 90, 112);
-      margin-top: 1rem;
-      font-size: 15px;
-      font-weight: bold;
+      @include button;
     }
   }
   img {
@@ -107,6 +114,7 @@ header {
     margin-left: 0.8rem;
     img {
       width: 14rem;
+      margin-bottom: -1rem;
     }
     .card-info {
       padding: 20px 20px;
@@ -117,7 +125,7 @@ header {
       margin-bottom: 5rem;
       border-bottom-left-radius: 1rem;
       border-bottom-right-radius: 1rem;
-      background-color: rgb(240, 231, 231);
+      background-color: rgb(247, 240, 240);
       .first-paragraph {
         font-size: 0.7rem;
         display: flex;
@@ -148,6 +156,9 @@ header {
         div {
           display: flex;
           align-items: center;
+          span {
+            font-weight: bold;
+          }
           img {
             width: 0.6rem;
           }
@@ -159,7 +170,8 @@ header {
 
 .fifth-main-section {
   position: relative;
-  margin-bottom: 10rem;
+  margin-bottom: 9rem;
+  border-top: 1px solid rgb(221, 217, 217);
   div {
     margin: 4rem 0.8rem 0rem;
     max-width: 220px;
@@ -179,13 +191,7 @@ header {
       line-height: 1.5rem;
     }
     button {
-      border-radius: 2.5rem;
-      padding: 1rem 2.5rem;
-      background-color: white;
-      border: 3px solid rgb(221, 90, 112);
-      margin-top: 1rem;
-      font-size: 15px;
-      font-weight: bold;
+      @include button;
     }
   }
   img {
@@ -238,7 +244,7 @@ footer {
 
 @media (min-width: 1200px) {
   header {
-    margin: 5rem;
+    margin: 5rem 7rem;
     .header-meniu {
       display: none;
     }
@@ -254,8 +260,8 @@ footer {
     }
   }
   main {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
   }
   .first-main-section {
     div {
@@ -272,6 +278,8 @@ footer {
   }
   .second-main-section {
     border-radius: 10px;
+    padding: 0rem 1rem;
+    margin-top: 1.5rem;
   }
 
   .third-main-section {
@@ -281,6 +289,9 @@ footer {
     }
   }
   .fifth-main-section {
+    border-top: 1px solid rgb(221, 217, 217);
+    border-bottom: 1px solid rgb(221, 217, 217);
+    padding-bottom: 3.5rem;
     div {
       max-width: 600px;
       h1 {
@@ -297,8 +308,8 @@ footer {
     }
   }
   footer {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
     .last-footer-paragraph {
       display: flex;
       justify-content: space-between;
